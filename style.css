@@ -310,6 +310,7 @@ h3 a:hover {
 /**************************************************/
 /* Timeline of events. */
 
+/*
 .experience::after {
   content: '';
   position: absolute;
@@ -380,6 +381,7 @@ h3 a:hover {
 .p-exp {
   line-height: 1.5em;
 }
+*/
 
 /**************************************************/
 /* Overlay. */

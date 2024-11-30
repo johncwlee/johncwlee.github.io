@@ -50,7 +50,7 @@
         <div id="intro-text">
           <h1>Chang Won (John) Lee</h1>
           <p>
-             Hi there! I'm a Master's student at the University of Toronto, advised by <a href="https://www.trailab.utias.utoronto.ca/steven-waslander">Professor Steven Waslander</a>
+             Hi there! I'm a Master's student at the <a href="https://www.utoronto.ca/">University of Toronto</a>, advised by <a href="https://www.trailab.utias.utoronto.ca/steven-waslander">Professor Steven Waslander</a>
              in the <a href="https://www.trailab.utias.utoronto.ca/">Toronto Robotics and AI Lab</a>. 
              I am affiliated with <a href="https://robotics.utoronto.ca/">University of Toronto Robotics Institute</a> and 
              <a href="https://vectorinstitute.ai/">Vector Institute</a>.
@@ -59,9 +59,11 @@
               <br>
               <p>MORE BIO HERE IF NEEDED</p>
             </div> -->
-            I obtained my Bachelor's degree in <a href="https://engsci.utoronto.ca/">Engineering Science</a> (Machine Intelligence major) from the University of Toronto.
-            <br>
-            My previous research interests lie in the intersection of machine learning, computer vision, and robotics
+            I obtained my Bachelor's degree in <a href="https://engsci.utoronto.ca/">Engineering Science</a> (Machine Intelligence major) from the <a href="https://www.utoronto.ca/">University of Toronto</a>.
+            <br><br>
+            My research lies at the intersection of machine learning, computer vision, and robotics. 
+            My previous and current work focuses on object detection, uncertainty quantification, multi-object tracking, and visual anomaly detection. 
+            In the future, I am interested in exploring representation learning, generative modeling, and 3D scene understanding.
             <br><br>
             <!-- <a href="javascript:toggle_bio()">Formal Bio</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
             <a href="#" class="pdf-link" data-pdf="media/Lee_Chang_Won_CV.pdf">CV</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -86,27 +88,72 @@
         <button class="button is-checked" data-filter="[data='education']">Education</button>
         <button class="button" data-filter="[data='publication']">Research</button>
         <button class="button" data-filter="[data='talk']">Talks</button>
+        <button class="button" data-filter="[data='teaching']">Teaching</button>
+        <button class="button" data-filter="[data='projects']">Projects</button>
+        <button class="button" data-filter="[data='services']">Services</button>
         <!-- <button class="button" data-filter=".misc">Misc</button> -->
       </div>
 
       <div class="grid">
         <!-- *-----------------------------* -->
         <!-- * Education -->
-        <div class="list-item experience" data="education">
-          <div class="container left">
-            <div class="date">2022.09 - Present</div>
-            <div class="timeline"></div>
+        <div class="list-item publication" data="education">
+          <a href="https://www.utoronto.ca/" class="thumbnail">
             <img src="media/uoft_logo.png" alt="UofT">
-            <div class="content">
-              <p class="p-exp">PhD student at <a href="https://www.utoronto.ca/">University of Toronto</a>, supervised by <a href="https://scholar.google.com/citations?user=jY_Bcd8AAAAJ&hl=en">Steven Waslander</a>.
-              </p>
-            </div>
+          </a>
+          <div class="project-description">
+            <h3>Master of Applied Science in Aerospace Engineering and Robotics<br>
+              <a href="https://www.utoronto.ca/">University of Toronto</a></h3>
+            <p>
+              <i>September 2023 - August 2025 (Expected)</i><br>
+              <i>Advisor:</i> <a href="https://www.trailab.utias.utoronto.ca/steven-waslander">Professor Steven Waslander</a><br>
+                <br>
+            </p>
+          </div>
+        </div>
+        <div class="list-item publication" data="education">
+          <a href="https://www.utoronto.ca/" class="thumbnail">
+            <img src="media/uoft_logo.png" alt="UofT">
+          </a>
+          <div class="project-description">
+            <h3>Bachelor of Applied Science in Engineering Science (Machine Intelligence)<br>
+              <a href="https://www.utoronto.ca/">University of Toronto</a></h3>
+            <p>
+              <i>September 2018 - June 2023</i><br>
+              <i>Undergraduate Thesis Advisor:</i> <a href="https://www.trailab.utias.utoronto.ca/steven-waslander">Professor Steven Waslander</a><br>
+                <br>
+            </p>
           </div>
         </div>
 
         <!-- *-----------------------------* -->
-        <!-- * Publications -->
-        <div class="list-item publication" data="publication">
+        <!-- * Talks -->
+        <!-- <div class="list-item talk description" data-category="talk">
+          Some of my slides can be found <a href="LINK">here</a>
+        </div> -->
+
+        <div class="list-item talk" data="talk">
+          <p class="date">2024</p>Presentation of <a href="https://arxiv.org/abs/2402.12303">UncertaintyTrack</a> at <a href="https://2024.ieee-icra.org/">ICRA 2024</a>
+        </div>
+        <div class="list-item talk" data="talk">
+          <p class="date"></p><a href="https://robotics.utoronto.ca/toronto-robotics-conference-2024/">Toronto Robotics Conference 2024</a>
+        </div>
+
+        <!-- *-----------------------------* -->
+        <!-- * Teaching -->
+        <div class="list-item misc" data="teaching">
+          <p class="date">2024</p>Teaching Assistant for <a href="https://engineering.calendar.utoronto.ca/course/rob310h1">Mathematics for Robotics (ROB310)</a>
+        </div>
+        <div class="list-item misc" data="teaching">
+          <p class="date">2023</p>Teaching Assistant for <a href="https://engineering.calendar.utoronto.ca/course/rob310h1">Mathematics for Robotics (ROB310)</a>
+        </div>
+        <div class="list-item misc" data="teaching">
+          <p class="date">2022</p>Teaching Assistant for <a href="https://engineering.calendar.utoronto.ca/course/mat188h1">Linear Algebra for Engineering (MAT188)</a>
+        </div>
+        
+        <!-- *-----------------------------* -->
+        <!-- * Projects -->
+        <!-- <div class="list-item publication" data="projects">
           <a href="https://robot-teaching.github.io/" class="thumbnail">
             <video playsinline="" muted="" autoplay="" loop="" width="180px">
               <source src="images/daynight.mp4" type="video/mp4">
@@ -122,62 +169,24 @@
                 <br>
             </p>
           </div>
-        </div>
-
-        <div class="list-item publication" data="publication">
-          <a href="https://arxiv.org/abs/2402.05741" class="thumbnail">
-            <img src="images/fm-review.jpeg" alt="" />
-          </a>
-          <div class="project-description">
-            <h3><a href="https://arxiv.org/abs/2402.05741">Real-World Robot Applications of Foundation Models: A Review</a></h3>
-            <p>
-              Kento Kawaharazuka, Tatsuya Matsushima, Andrew Gambardella, Jiaxian Guo, Chris Paxton, Andy Zeng<br>
-                <!-- <i>Conference on Robot Learning (CoRL) 2023</i><br> -->
-                <!-- <a href="https://video-language-planning.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
-                <a href="https://arxiv.org/abs/2402.05741">PDF</a>
-                <br>
-            </p>
-          </div>
-        </div>
-
-        <!-- <div class="list-item publication" data-category="publication">
-          <a href="https://generative-expressive-motion.github.io/" class="thumbnail">
-            <video playsinline="" muted="" autoplay="" loop="" width="180px">
-              <source src="images/genem.mp4" type="video/mp4">
-            </video>
-          </a>
-          <div class="project-description">
-            <h3><a href="https://generative-expressive-motion.github.io/">Generative Expressive Robot Behaviors using Large Language Models</a></h3>
-            <p>
-              Karthik Mahadevan, Jonathan Chien, Noah Brown, Zhuo Xu, Carolina Parada, Fei Xia, Andy Zeng, Leila Takayama, Dorsa Sadigh<br>
-                <i>ACM/IEEE International Conference on Human Robot Interaction (HRI) 2024</i><br>
-                <font color="49bf9"><i>&#9733; Best Paper Award, HRI &#9733;</i></font><br>
-                <a href="https://generative-expressive-motion.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://arxiv.org/abs/2401.14673">PDF</a>
-                <br>
-            <!-- </p>
-          </div>
         </div> -->
-
-        <!-- *-----------------------------* -->
-        <!-- * Talks -->
-        <!-- <div class="list-item talk description" data-category="talk">
-          Some of my slides can be found <a href="LINK">here</a>
-        </div> -->
-
-        <!-- <div class="list-item talk" data-category="talk">
-          <p class="date">YEAR</p>DESCRIPTION
-        </div>
 
         <!-- *-----------------------------* -->
         <!-- * Services -->
-        <!-- <div class="list-item misc" data-category="misc">
-          <p class="date">YEAR</p>DESCRIPTION
-        </div> -->
+        <div class="list-item misc" data="services">
+          <p class="date">2019 - 2022</p><a href="https://www.utoronto.ca/">University of Toronto</a> Engineering Student Ambassador
+        </div>
+        <div class="list-item misc" data="services">
+          <p class="date">2020 - 2021</p><a href="https://www.utoronto.ca/">University of Toronto</a> Engineering Student Mentor
+        </div>
+        <div class="list-item misc" data="services">
+          <p class="date">2021</p><a href="https://engsci.utoronto.ca/experience/esec/esec-2021-home/">Engineering Science Education Conference (ESEC)</a> Web Designer & Organizer
+        </div>
+
 
       </div>
 
-      <div id="footer">Design and open source code from <a href="https://andyzeng.github.io/">Andy Zeng</a> and <a href="https://letian-wang.github.io/">Letian Wang</a>.
+      <div id="footer">Design and open source code from <a href="https://andyzeng.github.io/">Andy Zeng</a>.
 
     </div>
 
