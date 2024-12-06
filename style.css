@@ -298,6 +298,21 @@ h3 a:hover {
 }
 
 /**************************************************/
+/* Miscellaneous. */
+
+.misc p.date {
+  width: 7em;
+  color: #a0a8b0;
+  text-align: center;
+  display: inline-block;
+}
+
+/* .misc-description {
+  width: 80%;
+  float: left;
+} */
+
+/**************************************************/
 /* Subtle footer at the bottom of the page. */
 
 #footer {
