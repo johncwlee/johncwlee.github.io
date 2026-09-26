@@ -50,7 +50,7 @@
         <div id="intro-text">
           <h1>Chang Won (John) Lee</h1>
           <p>
-             Hi there! I'm a 1st year PhD student at the <a href="https://www.utoronto.ca/">University of Toronto</a>, advised by <a href="https://www.trailab.utias.utoronto.ca/steven-waslander">Professor Steven Waslander</a>
+             Hi there! I'm a 2nd-year PhD student at the <a href="https://www.utoronto.ca/">University of Toronto</a>, advised by <a href="https://www.trailab.utias.utoronto.ca/steven-waslander">Professor Steven Waslander</a>
              in the <a href="https://www.trailab.utias.utoronto.ca/">Toronto Robotics and AI Lab</a>. 
              I am affiliated with <a href="https://robotics.utoronto.ca/">University of Toronto Robotics Institute</a> and 
              <a href="https://vectorinstitute.ai/">Vector Institute</a>.
@@ -61,9 +61,9 @@
             </div> -->
             I obtained my Master's and Bachelor's degrees from the <a href="https://www.utoronto.ca/">University of Toronto</a>, with a Bachelor's in <a href="https://engsci.utoronto.ca/">Engineering Science</a> (Machine Intelligence major).
             <br><br>
-            My research lies at the intersection of machine learning, computer vision, and robotics. 
-            My previous and current work focuses on object detection, uncertainty quantification, multi-object tracking, and visual anomaly detection for autonomous driving and space robotics.
-            Going forward, I am interested in exploring visual representation learning, generative modeling, multi-modal perception and 3D scene understanding.
+            My research focuses on generalist robots that can follow open-ended instructions reliably in open-world settings.
+            I am interested in task decomposition and reasoning, long-horizon embodied task planning, agent orchestration, generalist vision-language-action (VLA) policies, and learning from experience (continual and incremental learning).
+            Previously, I worked on uncertainty quantification, multi-object tracking, and visual anomaly detection for autonomous driving and space robotics.
             <br><br>
             <!-- <a href="javascript:toggle_bio()">Formal Bio</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
             <a href="#" class="pdf-link" data-pdf="media/main.pdf">CV</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -143,43 +143,54 @@
         <!-- *-----------------------------* -->
         <!-- * Publications -->
         <div class="list-item publication" data="publication">
-          <a href="https://arxiv.org/abs/2411.19888" class="thumbnail">
+          <div class="project-description">
+            <h3>DistillPlan: Distilling Episodes into Decomposition Schemas for Efficient Long-Horizon Embodied Task Planning</h3>
+            <p>
+                <span style="color: black; font-weight: bold;">Chang Won Lee</span>, M. Yuan, Steven L. Waslander
+                <br>
+                <i>Under Review</i>
+                <br>
+            </p>
+          </div>
+        </div>
+        <div class="list-item publication" data="publication">
+          <a href="https://trailab.github.io/FlowCLAS/" class="thumbnail">
             <img src="media/FlowCLAS_diagram.png" alt="FlowCLAS">
           </a>
           <div class="project-description">
-            <h3><a href="https://arxiv.org/abs/2411.19888">FlowCLAS: Enhancing Normalizing Flow Via Contrastive Learning For Anomaly Segmentation</a></h3>
+            <h3><a href="https://trailab.github.io/FlowCLAS/">FlowCLAS: Enhancing Normalizing Flow-Based Anomaly Segmentation Via Contrastive Learning</a></h3>
             <p>
-                <span style="color: black; font-weight: bold;">Chang Won Lee</span>, Selina Leveugle, Svetlana Stolpner, Chris Langley, Paul Grouchy, Jonathan Kelly, Steven L. Waslander
+                <span style="color: black; font-weight: bold;">Chang Won Lee</span>, Selina Leveugle, Paul Grouchy, Chris Langley, Svetlana Stolpner, Jonathan Kelly, Steven L. Waslander
                 <br>
-                <i>Under Review</i>
+                <i>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2026</i>
                 <br>
                 <!-- <span style="color: rgb(0, 94, 255);">TL;DR: Normalizing flow for anomaly detection/segmentation has a tendency to output high likelihood to outliers.
                   Can contrastive learning help to fix that? -->
                 <!-- </span><br> -->
                 <!-- <a href="">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
                 <!-- <a href="https://arxiv.org/abs/2411.19888">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
+                <a href="https://trailab.github.io/FlowCLAS/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
                 <a href="https://arxiv.org/abs/2411.19888">Paper</a>
-                <!-- <a href="">Code</a> -->
                 <br>
             </p>
           </div>
         </div>
         <div class="list-item publication" data="publication">
-          <a href="https://arxiv.org/pdf/2409.20435" class="thumbnail">
+          <a href="https://ieeexplore.ieee.org/document/11346967" class="thumbnail">
             <img src="media/ALLO_thumbnail.png" alt="ALLO">
           </a>
           <div class="project-description">
-            <h3><a href="https://arxiv.org/pdf/2409.20435">ALLO: A Photorealistic Dataset and Data Generation Pipeline for Anomaly Detection During Robotic Proximity Operations in Lunar Orbit</a></h3>
+            <h3><a href="https://ieeexplore.ieee.org/document/11346967">A Photorealistic Dataset and Vision-Based Algorithm for Anomaly Detection During Proximity Operations in Lunar Orbit</a></h3>
             <p>
-                Selina Leveugle, <span style="color: black; font-weight: bold;">Chang Won Lee</span>, Svetlana Stolpner, Chris Langley, Paul Grouchy, Steven Waslander, Jonathan Kelly
+                Selina Leveugle, <span style="color: black; font-weight: bold;">Chang Won Lee</span>, Svetlana Stolpner, Chris Langley, Paul Grouchy, Steven L. Waslander, Jonathan Kelly
                 <br>
-                <i>Under Review</i>
+                <i>IEEE Robotics and Automation Letters (RA-L), 2026</i>
                 <br>
                 <!-- <span style="color: rgb(0, 94, 255);">
                   A photorealistic data generation pipeline and dataset for anomaly detection in space.
                 </span><br> -->
                 <!-- <a href="">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
-                <a href="https://arxiv.org/pdf/2409.20435">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://ieeexplore.ieee.org/document/11346967">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
                 <a href="https://github.com/utiasSTARS/ALLO">Code</a>
                 <br>
             </p>
@@ -241,6 +252,18 @@
 
         <!-- *-----------------------------* -->
         <!-- * Teaching -->
+        <div class="list-item misc" data="teaching">
+          <p class="date">2026</p>Teaching Assistant for <a href="https://engineering.calendar.utoronto.ca/course/rob498h1">Robotics Capstone Design (ROB498)</a>
+        </div>
+        <div class="list-item misc" data="teaching">
+          <p class="date">2025</p>Teaching Assistant for <a href="https://engineering.calendar.utoronto.ca/course/rob310h1">Mathematics for Robotics (ROB310)</a>
+        </div>
+        <div class="list-item misc" data="teaching">
+          <p class="date">2025</p>Teaching Assistant for <a href="https://engineering.calendar.utoronto.ca/course/rob311h1">Artificial Intelligence (ROB311)</a>
+        </div>
+        <div class="list-item misc" data="teaching">
+          <p class="date">2024</p>Teaching Assistant for <a href="https://artsci.calendar.utoronto.ca/course/csc477h5">Introduction to Mobile Robotics (CSC477)</a>
+        </div>
         <div class="list-item misc" data="teaching">
           <p class="date">2024</p>Teaching Assistant for <a href="https://engineering.calendar.utoronto.ca/course/rob310h1">Mathematics for Robotics (ROB310)</a>
         </div>
